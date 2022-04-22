@@ -1,0 +1,29 @@
+package files;
+
+public class Inheritance {
+	public static void main(String args[])
+	{
+	class A
+	{
+		public void display()
+		{
+			System.out.println("display method");
+		}
+	}
+	class B extends A
+	{
+		public void show()
+		{
+			System.out.println("show method");
+		}
+	}
+ 
+	B b = new B();
+	b.show();
+	b.display();
+	 
+}
+}
+ 
+	
+ 
