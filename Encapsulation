@@ -1,0 +1,32 @@
+package files;
+public class Encapsul {
+	private String name;
+	private int id;
+	public String getname()
+	{
+		return name;
+	}
+	public int getid()
+	{
+		return id;
+	}
+	public void setname(String name)
+	{
+		this.name=name;
+	}
+	public void setid(int id)
+	{
+		this.id=id;
+	}
+	
+	public static void main(String args[])
+	{
+		Encapsul e=new Encapsul();
+		e.setname("AA");
+		Encapsul e2=new Encapsul();
+		e2.setid(530);
+		System.out.println(e.getname());
+		System.out.println(e2.getid());
+	}
+
+}
