@@ -1,0 +1,30 @@
+ package files;
+
+public class Oveloading2 {
+	public static void main(String args[])
+	{
+		class A
+		{
+			public void display()
+			{
+				System.out.println("class A ");
+			}
+		}
+		class B extends A
+		{
+			 
+			public void display(int a,int b)
+			{
+				 
+				System.out.println("Statements:"+a+ "and" +b);
+		
+			}
+		}
+		 B o1=new B(); 
+		  o1.display();
+		  o1.display(2,3);
+		  
+		
+	}
+
+}
