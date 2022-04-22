@@ -1,0 +1,28 @@
+package files;
+
+   
+	 	class A
+		{
+			public void display()
+			{
+				System.out.println("class A ");
+			}
+		}
+		class B extends A
+		{
+			public void display()
+			{
+				System.out.println("clss B");
+			}
+		}
+		public class Overloading
+		{
+		public static void main(String args[])
+		{
+			  B o=new B();
+	
+		 
+		o.display();
+	}
+
+		}
