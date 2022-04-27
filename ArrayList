@@ -1,0 +1,19 @@
+package files;
+import java.util.ArrayList;
+
+public class Arraylist {
+	public static void main(String args[])
+	{
+		ArrayList<Integer>a1=new ArrayList<Integer>();
+		a1.add(1);
+		a1.add(2);
+		System.out.println(a1);
+		Integer i=a1.get(0);
+		System.out.println(i);
+		a1.remove(0);
+		System.out.println(a1);
+		Integer i2=a1.get(0);
+		System.out.println(i2);
+	}
+
+}
