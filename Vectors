@@ -1,0 +1,17 @@
+package files;
+import java.util.Vector;
+public class Vectors {
+public static void main(String args[])
+{
+	Vector<String> vv=new Vector<>();
+	vv.add( "vector");
+	vv.add("vector1");
+	System.out.println(vv);
+	System.out.println(vv.get(1));
+	 vv.remove(0);
+	 System.out.println(vv);
+	String s=vv.get(0);
+	System.out.println(s);
+
+}
+}
